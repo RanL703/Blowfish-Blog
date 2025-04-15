@@ -1,0 +1,7 @@
+baseURL = "/"
+theme = "blowfish"
+languageCode = "en-us"
+title = "My Awesome Blog"
+
+# This file exists to help Vercel detect this as a Hugo project
+# The main configuration is still in config/_default/ 

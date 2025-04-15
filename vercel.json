@@ -5,7 +5,7 @@
       "GO_VERSION": "1.19.5"
     }
   },
-  "buildCommand": "hugo --gc --minify",
+  "buildCommand": "npm run vercel-build",
   "outputDirectory": "public",
   "framework": "hugo",
   "cleanUrls": true

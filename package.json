@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "hugo server -D",
     "build": "hugo --gc --minify",
-    "clean": "rimraf public resources"
+    "clean": "rimraf public resources",
+    "vercel-build": "[ -d themes/blowfish ] || git clone --depth=1 --branch=main https://github.com/nunocoracao/blowfish.git themes/blowfish && hugo --gc --minify"
   },
   "author": "",
   "license": "MIT",

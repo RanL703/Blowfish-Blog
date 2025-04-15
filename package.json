@@ -1,0 +1,21 @@
+{
+  "name": "my-hugo-blog",
+  "version": "1.0.0",
+  "description": "My personal blog using Hugo and Blowfish theme",
+  "scripts": {
+    "dev": "hugo server -D",
+    "build": "hugo --gc --minify",
+    "clean": "rimraf public resources"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "hugo": {
+    "version": "0.110.0",
+    "extended": true
+  }
+} 

@@ -6,5 +6,7 @@
     }
   },
   "buildCommand": "hugo --gc --minify",
-  "framework": "hugo"
+  "outputDirectory": "public",
+  "framework": "hugo",
+  "cleanUrls": true
 } 
